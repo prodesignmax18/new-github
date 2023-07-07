@@ -1,0 +1,119 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.menu-container{
+    background-color: rgb(54, 108, 170);
+    color: rgb(255, 255, 255);
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.logo-photo{
+    width: 150px;
+    padding: 20px;
+}
+.menus{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    margin-right: 10px;
+    padding-right: 7px;
+    font-size: 18px;
+
+}
+.item:hover{
+    color: blue;
+    cursor: col-resize;
+}
+.banner-img{
+    width: 450px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    /* border: 2px solid grey; */
+    background-image: url("./images/background.png"),linear-gradient(48deg,#2e2826, #062e0c);
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.description{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color: rgb(212, 97, 2);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+.about-info{
+    font-size: 20px;
+
+}
+.about-section{
+    background: linear-gradient(-48deg,#0de0e0, #3353bbd8, #36e987);
+    color: #fff;
+    
+}
+.box{
+    width: 230px;
+    height: 250px;
+    box-shadow: 4px 4px 15px rgba(2, 2, 2, 0.247);
+    background-color: #0d5240;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+.icon{
+    width: 100px;
+    
+}
+.box-btn{
+    background-color: rgb(21, 39, 71);
+    margin: 10px;
+    padding: 10px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 5px;
+
+}
+.box{
+    margin: 10px;
+    padding: 30px;
+    border-radius: 10px;
+    align-items: center;
+}
+.service-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-image: url("./images/background.png"),linear-gradient(48deg,#2e2826, #062e0c);
+
+}
